@@ -1,6 +1,12 @@
 ## Todo service
 Simple todo service to create/update/list todos using the AWS lambda architecture of API Gateway, http events and dynamodb storage.
 
+### Create service using template
+```
+serverless create --template aws-python
+
+```
+
 ### Deploy service
 ```
 cd hello-service
